@@ -16,6 +16,11 @@ name = Label(root,text ="MARVEL",fg="#FFFFFF",bd = 0,bg ="#FF0000")
 name.config(font=("Transformers Movie",30))
 name.pack(pady=10)
 
+name = Label(root,text ="Nhập tiếng việt",fg="#FFFFFF",bd = 0,bg="#FF0000")
+name.config(font=("Transformers Movie",10))
+name.pack(pady=15)
+name.place(x = 100, y= 70)
+
 box = Text(root,width=28,height=8,font=("ROBOTO",16))
 box.pack(pady=20)
 
@@ -41,6 +46,8 @@ clear_btn.place(x = 290, y= 310)
 
 tran_btn =Button(button_frame,text="Translate",font=(("Arial"),10,'bold'),bg='#FF0000',fg='#FFFFFF',command=translate)
 tran_btn.place(x = 150, y= 310)
+
+
 
 box1= Text(root,width=28,height=8,font=("ROBOTO",16))
 box1.pack(pady=50)
